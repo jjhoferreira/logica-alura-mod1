@@ -1,0 +1,32 @@
+<meta charset="UTF-8">
+
+	<script>
+
+		function pulaLinha() {
+   	 	document.write("<br><hr><br>");
+		}
+
+		function mostra(frase) {
+    	document.write("<big>" + frase + "<big>");
+    	pulaLinha();
+		}
+
+		function calculaimc(peso, altura){
+			var imc = peso /(altura * altura);
+		}
+
+
+			var peso = 85;
+			var altura = 1.85;
+			var imcJho = calculaimc(peso, altura); 
+
+			mostra("O índice de massa muscular do Jho é " + imcJho);
+
+			var peso = 91;
+			var altura = 1.65;
+			calculaimc = (peso, altura);
+
+			mostra ("O índice de massa muscular do amigo é " + calculaimc); 
+
+
+	</script>
